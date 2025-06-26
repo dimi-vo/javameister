@@ -38,7 +38,7 @@ public class AvroProducer {
     }
 
     public static void main(String[] args) throws IOException {
-        final Properties properties = readConfig("/Users/dimi/my/learning/confluent/javameister/src/main/resources/avroProducer.properties");
+        final Properties properties = readConfig("src/main/resources/avroProducer.properties");
 
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, KafkaAvroSerializer.class.getName());
