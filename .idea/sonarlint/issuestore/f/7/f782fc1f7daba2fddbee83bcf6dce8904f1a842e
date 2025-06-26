@@ -1,0 +1,9 @@
+
+}
+java:S6213"":Rename this variable to not match a restricted identifier.(íª¶†8ó€Êı2J$b2d85d2b-721c-4000-ad29-8bcd2b548aab
+m	java:S106&"+Replace this use of System.out by a logger.(‡É»á8õ€Êı2J$26b27736-4db5-45cb-a320-0ccb8e4aa6c1
+r	java:S106)"+Replace this use of System.out by a logger.(ÇŠ¸çüÿÿÿÿ8½ÍÊı2J$087f69ba-9765-405a-9833-4aa3f0f1d7fa
+l	java:S106."+Replace this use of System.out by a logger.(÷Ø  8¾ÍÊı2J$78340093-9ffe-4a59-82bf-c6f5d05e1261
+m	java:S1067"+Replace this use of System.out by a logger.(Ïş…ô8¢½Ìı2J$50f554ec-e4c8-42ce-9abe-dc9997a25980
+i
+java:S1068"'Remove this unused "log" private field.(øö"8³½Ìı2J$bbc27813-104d-4761-9ef6-d1d96020a064
