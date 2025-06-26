@@ -44,7 +44,7 @@ public class ConsumeForTimestamps {
                     .collect(Collectors.toList());
 
             // Get start of today in UTC
-            OffsetDateTime startOfDayUtc = OffsetDateTime.now(ZoneOffset.UTC).toLocalDate().atStartOfDay().plusDays(1).atOffset(ZoneOffset.UTC);
+            OffsetDateTime startOfDayUtc = OffsetDateTime.now(ZoneOffset.UTC).toLocalDate().atStartOfDay().atOffset(ZoneOffset.UTC);
             long epochMillis = startOfDayUtc.toInstant().toEpochMilli();
 
             log.info("Start of day (UTC): {}, epochMillis: {}", startOfDayUtc, epochMillis);
